@@ -55,7 +55,7 @@ thanks to the translators.
 
 ## 🚀 <a name="deploy"></a>Deploy
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://deploy.safone.tech)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://deploy.safone.dev)
 
 Note: `First Fork The Repo Then Click On Deploy To Heroku Button!`
 
@@ -68,10 +68,6 @@ $ git clone https://github.com/AsmSafone/MusicPlayer
 $ cd MusicPlayer
 $ sudo apt install git curl python3-pip ffmpeg -y
 $ pip3 install -U pip
-$ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-$ sudo apt install -y nodejs
-$ sudo apt install build-essential
-$ sudo npm install pm2@latest -g
 $ pip3 install -U -r requirements.txt
 $ cp sample.env .env
 # < edit .env with your own values >
@@ -80,7 +76,7 @@ $ python3 main.py
 Or you can use this One-Liner to save your time :
 
 ```
-git clone https://github.com/AsmSafone/MusicPlayer && cd MusicPlayer && sudo apt install git curl python3-pip ffmpeg -y && pip3 install -U pip && curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - && sudo apt install -y nodejs && sudo apt install build-essential && sudo npm install pm2@latest -g && pip3 install -U -r requirements.txt
+git clone https://github.com/AsmSafone/MusicPlayer && cd MusicPlayer && sudo apt install git curl python3-pip ffmpeg -y && pip3 install -U pip && pip3 install -U -r requirements.txt
 ```
 Make sure to edit the .env file accordingly,
 ```
@@ -144,9 +140,18 @@ Command | Description
 ## 🗣 <a name="languages"></a>Languages
 
 ```text
-en    English
+ar    Arabic
+bn    Bengali
+cn    Chinese
 de    German
+en    English
+fr    French
+hi    Hindi
+ja    Japanese
+nl    Dutch
+ru    Russian
 te    Telegu
+tr    Turkish
 ```
 
 ## 💜 <a name="contribute"></a>Contribute
